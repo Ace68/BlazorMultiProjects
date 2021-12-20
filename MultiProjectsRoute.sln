@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Presentation", "99 Presentation", "{CF85B443-D04E-4B52-8247-0DD90857EDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Server", "MultiProjectsRoute\Server\MultiProjectsRoute.Server.csproj", "{FD251A85-1638-4010-9CEB-068E8A8618EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Client", "MultiProjectsRoute\Client\MultiProjectsRoute.Client.csproj", "{5D102203-94DF-474B-8E4E-15F3B937FE6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Modules", "50 Modules", "{BC7FF041-E7DB-4450-ABA6-6B835716B834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Modules.Dashboard", "MultiProjectsRoute.Modules.Dashboard\MultiProjectsRoute.Modules.Dashboard.csproj", "{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Modules.WeatherForecast", "MultiProjectsRoute.Modules.WeatherForecast\MultiProjectsRoute.Modules.WeatherForecast.csproj", "{A0D01E97-EAE9-4748-8687-C835CC3475B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{E913AC35-6C37-4C8B-8933-89495AA95347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherForecast", "WeatherForecast", "{D5D8B700-AF94-4985-8C47-C7B927F91FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Modules.WeatherForecast.Shared", "MultiProjectsRoute.Modules.WeatherForecast.Shared\MultiProjectsRoute.Modules.WeatherForecast.Shared.csproj", "{69FD476A-B3EF-4DB4-997C-309AC5572AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Counter", "Counter", "{28BF769F-9F50-4253-8941-E8ADFD6A5893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectsRoute.Modules.Counter", "MultiProjectsRoute.Modules.Counter\MultiProjectsRoute.Modules.Counter.csproj", "{59B23710-0976-469C-94F6-0A598F7A01C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD251A85-1638-4010-9CEB-068E8A8618EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD251A85-1638-4010-9CEB-068E8A8618EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD251A85-1638-4010-9CEB-068E8A8618EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD251A85-1638-4010-9CEB-068E8A8618EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D102203-94DF-474B-8E4E-15F3B937FE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D102203-94DF-474B-8E4E-15F3B937FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D102203-94DF-474B-8E4E-15F3B937FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D102203-94DF-474B-8E4E-15F3B937FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D01E97-EAE9-4748-8687-C835CC3475B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D01E97-EAE9-4748-8687-C835CC3475B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D01E97-EAE9-4748-8687-C835CC3475B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D01E97-EAE9-4748-8687-C835CC3475B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FD476A-B3EF-4DB4-997C-309AC5572AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FD476A-B3EF-4DB4-997C-309AC5572AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FD476A-B3EF-4DB4-997C-309AC5572AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FD476A-B3EF-4DB4-997C-309AC5572AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B23710-0976-469C-94F6-0A598F7A01C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B23710-0976-469C-94F6-0A598F7A01C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B23710-0976-469C-94F6-0A598F7A01C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B23710-0976-469C-94F6-0A598F7A01C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD251A85-1638-4010-9CEB-068E8A8618EC} = {CF85B443-D04E-4B52-8247-0DD90857EDE5}
+		{5D102203-94DF-474B-8E4E-15F3B937FE6A} = {CF85B443-D04E-4B52-8247-0DD90857EDE5}
+		{2E2E5DCE-BDAE-4A69-A29B-43D55C01EEE1} = {E913AC35-6C37-4C8B-8933-89495AA95347}
+		{A0D01E97-EAE9-4748-8687-C835CC3475B8} = {D5D8B700-AF94-4985-8C47-C7B927F91FC5}
+		{E913AC35-6C37-4C8B-8933-89495AA95347} = {BC7FF041-E7DB-4450-ABA6-6B835716B834}
+		{D5D8B700-AF94-4985-8C47-C7B927F91FC5} = {BC7FF041-E7DB-4450-ABA6-6B835716B834}
+		{69FD476A-B3EF-4DB4-997C-309AC5572AA1} = {D5D8B700-AF94-4985-8C47-C7B927F91FC5}
+		{28BF769F-9F50-4253-8941-E8ADFD6A5893} = {BC7FF041-E7DB-4450-ABA6-6B835716B834}
+		{59B23710-0976-469C-94F6-0A598F7A01C2} = {28BF769F-9F50-4253-8941-E8ADFD6A5893}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D921F30A-EAED-46B6-8E82-BCF521B08CF6}
+	EndGlobalSection
+EndGlobal
